@@ -1,0 +1,2 @@
+# doTheseWindowsOpen-thisIsMyAtemptForAnAmazon
+doTheseWindowsOpen-thisIsMyAtemptForAnAmazon
