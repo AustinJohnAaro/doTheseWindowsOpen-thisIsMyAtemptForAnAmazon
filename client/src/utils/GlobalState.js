@@ -4,8 +4,7 @@ import { useProductReducer } from './reducers';
 const StoreContext = createContext();
 const { Provider } = StoreContext;
 
-const StoreContext = createContext();
-const { Provider } = StoreContext;
+
 
 
 
