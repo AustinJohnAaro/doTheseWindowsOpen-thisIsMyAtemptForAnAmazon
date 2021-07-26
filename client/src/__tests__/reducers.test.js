@@ -11,6 +11,18 @@ import {
   TOGGLE_CART
 } from '../utils/actions';
 
+test('UPDATE_CURRENT_CATEGORY', () => {
+  let newState = reducer(initialState, {
+    type: UPDATE_CURRENT_CATEGORY,
+    currentCategory: '2'
+  });
+
+  expect(newState.currentCategory).toBe('2');
+  expect(initialState.currentCategory).toBe('1');
+});
+
+
+
 test('UPDATE_CATEGORIES', () => {
   let newState = reducer(initialState, {
     type: UPDATE_CATEGORIES,
